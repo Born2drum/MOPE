@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12fb5b7d-d3e9-4f06-8436-8abb5a85a257" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lab6">
+  <component name="RunManager" selected="Python.Lab3">
     <configuration name="Lab3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MOPE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,10 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab3" />
         <item itemvalue="Python.Lab6" />
         <item itemvalue="Python.Lab5" />
         <item itemvalue="Python.Lab4" />
-        <item itemvalue="Python.Lab3" />
       </list>
     </recent_temporary>
   </component>

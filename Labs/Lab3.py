@@ -1,11 +1,12 @@
 import random
+import datetime
 import itertools
 import numpy as np
 import scipy
 from scipy.stats import f
 from prettytable import PrettyTable
 
-
+start_time = datetime.datetime.now()
 def f_critical(prob, f1, f2):
     return scipy.stats.f.ppf(prob, f1, f2)
 
@@ -141,3 +142,6 @@ if stat_f > crit_f:
     print("Модель неадекватна.")
 else:
     print("Модель адекватна.")
+end_time = datetime.datetime.now()
+delta = end_time - start_time
+print(delta)
