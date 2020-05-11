@@ -1,4 +1,8 @@
+import datetime
+
 class Critical_values:
+
+
     @staticmethod
     def get_cohren_value(size_of_selections, qty_of_selections, significance):
         from _pydecimal import Decimal
@@ -22,7 +26,7 @@ class Critical_values:
         from scipy.stats import f
         return Decimal(abs(f.isf(significance, f4, f3))).quantize(Decimal('.0001')).__float__()
 
-
+start_time = datetime.datetime.now()
 def generate_matrix():
     """Генерує матрицю"""
     def f(X1, X2, X3):
@@ -264,3 +268,6 @@ while not adequacy:
         adequacy = True
     else:
         print("\t\tРівняння регресії неадекватне стосовно оригіналу\n\t Проводимо експеремент повторно!")
+end_time = datetime.datetime.now()
+delta = end_time - start_time
+print("Час виконання",delta)
